@@ -90,6 +90,7 @@ public class IDConverter {
         return dictionaryKey;
     }
 
+
     private Long convertBase62ToBase10ID(List<Character> ids) {
         long id = 0L;
         int exp = ids.size() - 1;
